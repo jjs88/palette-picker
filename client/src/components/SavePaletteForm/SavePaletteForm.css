@@ -1,0 +1,16 @@
+.SavePaletteForm {
+  padding: 20px;
+  position: relative;
+}
+
+.SavePaletteForm > :not(:last-child) {
+  margin-right: 10px;
+}
+
+.SavePaletteError {
+  color: #e74c3c;
+  bottom: 0;
+  left: 60px;
+  font-size: 80%;
+  position: absolute;
+}

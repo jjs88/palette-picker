@@ -1,0 +1,12 @@
+.Color {
+  width: 35px;
+  height: 35px;
+}
+
+.Color:not(:last-child) {
+  margin-right: 5px;
+}
+
+.Color:first-of-type {
+  margin-left: 5px;
+}

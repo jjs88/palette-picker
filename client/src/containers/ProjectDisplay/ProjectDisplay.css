@@ -1,0 +1,11 @@
+.ProjectDisplay {
+  margin-top: 30px;
+  border-top: 1px solid #2c3e50;
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}

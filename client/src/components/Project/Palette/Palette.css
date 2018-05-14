@@ -1,0 +1,15 @@
+.Palette {
+  display: flex;
+  align-items: center;
+  animation: .3s palette ease-in;
+}
+
+.TrashPalette:hover {
+  cursor: pointer;
+  color: #e74c3c;
+}
+
+@keyframes palette {
+  0% {opacity: 0;}
+  100% { opacity: 1;}
+}
